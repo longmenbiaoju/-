@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eaeaea"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvUpTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="关于我们"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp" />
+
+    <View
+        android:layout_width="220dp"
+        android:layout_height="2dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="2dp"
+        android:background="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/tvVersionType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:text="版本:5.22.1"
+        android:textColor="#7a7a7a"
+        android:textSize="@dimen/update_content" />
+
+    <TextView
+        android:layout_marginEnd="25dp"
+        android:id="@+id/tvAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:paddingBottom="25dp"
+        android:text="@string/app_about"
+        android:textColor="#7a7a7a"
+        android:textSize="@dimen/update_content" />
+
+</LinearLayout>
